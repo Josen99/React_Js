@@ -21,7 +21,7 @@ function App() {
     if(token){
       setUserData(jwt_decode(token));
       setIsAuthenticated(true);
-      debugger;
+      debugger;  
     };
   },[]);
     const handleLogin = (token) => {
